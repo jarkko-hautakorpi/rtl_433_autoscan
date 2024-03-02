@@ -7,5 +7,5 @@ see: [merbanan/rtl_433](https://github.com/merbanan/rtl_433)
 ### Usage
 start_autoscan.py seconds start_freq end_freq step_freq
 ```bash
-python3 start_autoscan.py 30 345000000 440000000 1000000
+python3 start_autocapture.py --sec 30 --start 345000000 --stop 440000000 --step 1000000
 ```
